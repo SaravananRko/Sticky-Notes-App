@@ -257,7 +257,7 @@ function register(){
 	var pattern1 = /\w\W\d/g; 
 	var result1 = pattern1.test(pwd);
 
-  //mail id validation
+ 
 
 	var mail = document.getElementById('Email').value;
 	var pattern2=  /\S+@\S+\.\S+/; 
@@ -265,11 +265,11 @@ function register(){
 
 	console.log(mail);
 
-	//variable declare for retype password
+	
   
   if(result1 && result2){
 
-  //local storage checking if already mail exists or not
+ 
 
   console.log("test1");
   
@@ -292,14 +292,13 @@ function register(){
 			"FirstName":firstname,
 	  		"username":usename,
 			"Email":mail,
-
   			"Password":pwd 
 			
 		};
   
    localStorage.setItem(usename, JSON.stringify(json));
 
-	 
+   document.write("");
   
    window.location.href = "root.html";
    
