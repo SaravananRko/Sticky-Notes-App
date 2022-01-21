@@ -79,7 +79,7 @@ function Logout(){
 
 	localStorage.removeItem("login");
 
-  location.href='root.html';
+  location.href='index.html';
 }
 
 function Profile(){

@@ -1,6 +1,6 @@
 #Sticky-Body {
   margin: 0;
-  background: #009578;
+  background: #2b7a78;
 }
 
 #Logout{
@@ -54,12 +54,12 @@
 
 #Profile-body{
   margin: 0px;
-  background-color: #1d5c96;
+  background-color: #2b7a78;
 }
 #ChangePassword-body{
   
   margin: 0px;
-  background-color: #1d5c96;
+  background-color: #2b7a78;
 }
 
 #Profile-top{
@@ -69,7 +69,7 @@
   text-align: center;
   font-family: cursive;
   padding: 10px;
-  color: #7db0de;
+  color: #17252a;
 }
 
 #ChangePassword-top{
@@ -80,71 +80,96 @@
   text-align: center;
   font-family: cursive;
   padding: 10px;
-  color: #7db0de;
+  color: #17252a;
 }
 #Profile-Details{
-    
+    margin-top: -50px;
     width: 1160px;
     height: 450px;
     box-sizing: border-box;
     padding: 50px 100px;
-    background-color: #7db0de;
+    background-color: #3AAFA9;
     margin-left: 100px;
     font-family: cursive;
     font-size: 20px;
   	font-weight: bold;
+    color: #17252a;
 
 }
 #Change-password-button{
   padding: 20px;
   justify-content: center;
-  background-color: #1d5c96;
-  color: #7db0de;
+  background-color: #17252a;
+  color: #3AAFA9;
   font-size: 20px;
-  font-weight: bold;
+
+  font-family: cursive;
+    font-size: 20px;
+  	font-weight: bold;
 }
 
 #ChangePassword{
-    text-align: center;
+   
     width: 1160px;
     height: 450px;
     box-sizing: border-box;
-    padding: 50px 100px;
-    background-color: #7db0de;
+    padding: 50px 100px 50px 450px;
+    background-color: #3AAFA9;
     margin-left: 100px;
     font-family: cursive;
     font-size: 20px;
   	font-weight: bold;
+    margin-top: -50px;
 }
 
 #OldPassword,#NewPassword,#ConfirmPassword{
   font-family: cursive;
   border: 0;
 	background: none;
-	display: block;
-	margin: -5px auto;
-	text-align: center;
-	border: 2px solid #1d5c96;
+	border: 2px solid #17252a;
 	padding: 14px 10px;
-	width: 300px;
+	width: 250px;
 	outline: none;
-	color: whitesmoke;
+	color: #17252a;
 	border-radius: 24px;
 	transition: 0.25s;
+  text-align: center;
 }
 
 #ChangePassword-Submit{
 
   border: 0;
-	background: #1d5c96;
+  margin-left: 40px;
+	background: #17252a;
 	display: inline-block;
-	text-align: center;
 	border: 2px solid #1d5c96;
 	padding: 14px 30px ;
 	width: 200px;
 	outline: none;
-	color: whitesmoke;
+	color: #3AAFA9;
 	border-radius: 24px;
 	transition: 0.25s;
 	cursor: pointer;
+ 
+}
+
+#afirst{
+  float: right;
+  background: #17252a;
+  padding: 14px 20px;
+  font-family: cursive;
+  font-size: 20px;
+  font-weight: bold;
+  color: #3AAFA9;
+}
+
+#bfirst{
+  top: -50px;
+  float: right;
+  background: #17252a;
+  padding: 14px 20px;
+  font-family: cursive;
+  font-size: 20px;
+  font-weight: bold;
+  color: #3AAFA9;
 }

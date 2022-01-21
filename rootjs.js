@@ -300,7 +300,7 @@ function register(){
 
    document.write("");
   
-   window.location.href = "root.html";
+   window.location.href = "index.html";
    
   }
 
@@ -333,10 +333,6 @@ function check(){
 }
  
 
-function Logout(){
-
-	localStorage.removeItem("login");
-}
 
   	// var validRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
 
