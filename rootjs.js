@@ -86,7 +86,7 @@ function data(){
 
 	let e1 = document.querySelector(".change");
 
-  	e2.style.visibility = "hidden";
+  	e2.style.visibility = "hidden"; 
 	
     e1.style.visibility = "hidden";
 
@@ -281,12 +281,7 @@ function register(){
   
   } else {
   
-	  console.log(`Email address not found`); 
-  
-  
-  
-  
-  
+	  console.log(`Email address not found`);  
   
   var json={ 
 			"FirstName":firstname,
